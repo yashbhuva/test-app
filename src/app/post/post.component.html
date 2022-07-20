@@ -1,0 +1,42 @@
+  <form [formGroup]="formGrp" novalidate class="formCls">
+    <div>
+      <label>Pin Code</label><br>
+       <label class="show-error"></label><br> 
+      <input type="tel" formControlName="pincdctrl" placeholder="Please enter pin code here"
+        minlength="6" maxlength="6"><br><br>
+            
+      
+    </div>
+     <div>
+      <button type="search" (click)="doSubmit()">search</button><br><br>
+  
+ </div>
+  </form>
+
+  <table border="2px" align="center">
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>BranchType</th>
+            <th>DeliveryStatus</th>
+            <th>Circle</th>
+            <th>District</th>
+            <th>Region</th>
+            <th>State</th>
+            <th>Division</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let abc of result['PostOffice']">
+            <td>{{abc.Name}}</td>
+            <td>{{abc.BranchType}}</td>
+            <td>{{abc.DeliveryStatus}}</td>
+            <td>{{abc.Circle}}</td>
+            <td>{{abc.District}}</td>
+            <td>{{abc.Region}}</td>
+            <td>{{abc.State}}</td>
+            <td>{{abc.Division}}</td>
+            
+        </tr>
+    </tbody>
+</table>

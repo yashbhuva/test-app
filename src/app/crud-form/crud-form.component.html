@@ -1,0 +1,39 @@
+
+
+<form [formGroup]="addNewUser" (ngSubmit)="onSubmit(addNewUser.value)">
+    <label class="form-label">Name</label><br>
+        <input type="text" class="form-control" placeholder="Enter Name" formControlName="name"><br><br>
+    <label class="form-label">Email</label><br>
+        <input type="email" class="form-control" placeholder="Enter Email" formControlName="email"><br><br>
+    <label class="form-label">Mobile Number</label><br>
+        <input type="tel" class="form-control" placeholder="Enter Mobile Number" formControlName="number"><br><br>
+    <label class="form-label">Password</label><br>
+        <input type="password" class="form-control" placeholder="Enter Password" formControlName="password"><br><br>
+
+    <button type="submit" class="btn btn-primary" *ngIf="!isEdit">Add New User</button><br><br>
+    <button type="button" class="btn btn-info" *ngIf="isEdit" (click)="updateUser()">Update</button><br><br>
+</form>
+
+
+    <table class="table" border="2">
+        <thead>
+          <tr>
+            <th>Full Name</th>
+            <th>Email address</th>
+            <th>Mobile Number</th>
+            <th>Password</th>
+            <th>Edit</th>
+            <th>Delete</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor = "let user of allUser" >
+            <td>{{user.name}}</td>
+            <td>{{user.email}}</td>
+            <td>{{user.number}}</td>
+            <td>{{user.password}}</td>
+            <td><button (click)="edituser(user)" class="btn btn-warning" (click)="getLatestUser()">Edit</button></td>
+            <td><button (click)="deleteuser(user)" class="btn btn-warning">Delete</button></td>
+          </tr>
+        </tbody>
+      </table>

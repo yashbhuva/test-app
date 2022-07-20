@@ -1,0 +1,135 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "crud": [
+    {
+      "Name": "divyesh ranoliya",
+      "Mobile": "1234567",
+      "Email": "a@gmail.com",
+      "Password": "123",
+      "id": 1
+    },
+    {
+      "Name": "Krupal",
+      "Mobile": "1234565456",
+      "Email": "Kp@gmail.com",
+      "Password": "123",
+      "id": 4
+    },
+    {
+      "Name": "divyesh ranoliya",
+      "Mobile": "11111111111",
+      "Email": "d@gmail.com",
+      "Password": "123",
+      "id": 6
+    },
+    {
+      "Name": "krupal",
+      "Mobile": "123456789",
+      "Email": "k@gmail.com",
+      "Password": "111",
+      "id": 7
+    },
+    {
+      "Name": "div",
+      "Mobile": "5565561222",
+      "Email": "d@gmail.com",
+      "Password": "123",
+      "id": 8
+    },
+    {
+      "Name": "thor",
+      "Mobile": "997997997",
+      "Email": "t@gmail.com",
+      "Password": "123",
+      "id": 9
+    },
+    {
+      "Name": "ironman",
+      "Mobile": "5632",
+      "Email": "i@gmail.com",
+      "Password": "123",
+      "id": 10
+    },
+    {
+      "Name": "hulkbhai",
+      "Mobile": "6563563464",
+      "Email": "h@gmail.com",
+      "Password": "123",
+      "id": 11
+    }
+  ],
+  "cf": [
+    {
+      "name": "Divyesh Ranoliya",
+      "email": "d@gmail.com",
+      "number": "7600775397",
+      "password": "123",
+      "id": 1
+    },
+    {
+      "name": "Divyesh Rameshbhai Ranoliya",
+      "email": "divyeshranoliya123@gmail.com",
+      "number": "7600775397",
+      "password": "123",
+      "id": 2
+    },
+    {
+      "name": "krupal patel",
+      "email": "k@gmail.com",
+      "number": "9825655214",
+      "password": "123",
+      "id": 3
+    },
+    {
+      "name": "capton bhaoi",
+      "email": "a@gmail.com",
+      "number": "466646456",
+      "password": "123",
+      "id": 4
+    },
+    {
+      "name": "thor",
+      "email": "t@gmail.com",
+      "number": "78787878787",
+      "password": "123",
+      "id": 6
+    },
+    {
+      "name": "ironman",
+      "email": "i@gmail.com",
+      "number": "7987987",
+      "password": "123",
+      "id": 7
+    },
+    {
+      "name": "thorbhai",
+      "email": "t@gmail.com",
+      "number": "97979779797",
+      "password": "123",
+      "id": 8
+    },
+    {
+      "name": "hulkbhai",
+      "email": "hulk@gmail.com",
+      "number": "11111111111",
+      "password": "123",
+      "id": 9
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "signin": [
+    {
+      "name": "thor",
+      "email": "thor@gmail.com",
+      "username": "thor",
+      "Password": "123",
+      "id": 1
+    },
+    {
+      "name": "ironman",
+      "email": "ironman@gmail.com",
+      "username": "ironman",
+      "Password": "456",
+      "id": 2
+    },
+    {
+      "name": "hulk",
+      "email": "hulk@gmail.com",
+      "username": "hulk",
+      "Password": "789",
+      "id": 3
+    },
+    {
+      "name": "d",
+      "email": "d@gmail.com",
+      "username": "d",
+      "Password": "789",
+      "id": 4
+    },
+    {
+      "name": "a",
+      "email": "a@gmail.com",
+      "username": "a",
+      "Password": "123",
+      "id": 5
+    },
+    {
+      "name": "b",
+      "email": "b@gmail.com",
+      "username": "b",
+      "Password": "123",
+      "id": 6
+    },
+    {
+      "name": "krupal",
+      "email": "krupal@gmail.com",
+      "username": "krupal",
+      "Password": "123",
+      "id": 7
+    }
+  ]
+}

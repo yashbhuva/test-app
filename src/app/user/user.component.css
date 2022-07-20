@@ -1,0 +1,37 @@
+body{
+    
+    text-align: center;
+    font-size: xx-large;
+    /* background-color: aqua; */
+}
+button{
+
+    align-content: center;
+    color: darkgoldenrod;
+    font-size: x-large;
+}
+
+div{
+
+    font-size: x-large;
+    color: blue;
+}
+
+img{
+
+    align-content: center;
+    width: 50%;
+    height: 50%;
+}
+
+table{
+    
+    background-color: blue;
+    color: black;
+    }
+
+label{
+
+    size: 1%;
+    color:black;
+}

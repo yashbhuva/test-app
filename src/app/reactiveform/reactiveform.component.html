@@ -1,0 +1,15 @@
+<body>
+    
+<h1>{{title}}</h1>
+
+
+      <form [formGroup]="loginform" (ngsubmit)="onSubmit()">
+        <label> Username </label>
+        <input type="text" placeholder="Enter Username" formControlName="user" />
+        <br><br>
+        <label> Password </label>
+        <input type="password" placeholder="Enter password" formControlName="password" />
+        <br><br>
+        <button (click)="Submit()" (click)="onSubmit()" type="submit"> Login </button>
+      </form> 
+</body>

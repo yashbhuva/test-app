@@ -1,0 +1,98 @@
+
+<html>
+
+    <head>
+      <title>my first web page</title>
+    </head>
+    
+    <body>
+      {{ABC}}<br>
+    
+      <button type="button" (click)="sayMessage()">
+        register
+      </button>
+    
+      <div *ngFor="let fruit of fruits">
+    
+        <h3>
+          {{ fruit }}
+        </h3>
+    
+      </div>
+    
+    
+    
+      <ul *ngFor="let cc of clg">
+        <li>{{cc.name}}
+        </li>
+        <ul>
+          <li *ngFor="let aa of cc.option">
+            {{aa.name}}
+          </li>
+    
+        </ul>
+      </ul>
+    
+      <br>
+      <div>
+        <img [src]="'../assets/image/IMG_1829.JPG'">
+    
+      </div><br>
+    
+      <div>
+        <img [src]="'../assets/image/IMG_1828.JPG'">
+    
+      </div>
+    
+    
+    
+      <br>
+    
+      <table align="center" border="2px" cellspacing="5" cellpadding="5">
+        <tr>
+          <td>name</td>
+          <td>email</td>
+          <td>number</td>
+        </tr>
+    
+        <tr>
+          <td>divyesh</td>
+          <td>divyeshpatel123@gmail.com</td>
+          <td>7600775397</td>
+        </tr>
+    
+        <tr>
+          <td>krupal</td>
+          <td>krupal123@gmail.com</td>
+          <td>7894561230</td>
+        </tr>
+      </table><br>
+    
+    
+      <div id="login_form">
+        <form name="f1" method="post" action="profile.html" id="f1">
+          <table>
+            <tr>
+              <td class="f1_label">User Name :</td>
+              <td> <input type="text" name="username" value="" /> </td>
+            </tr>
+            <tr>
+              <td class="f1_label">Password :</td>
+              <td><input type="password" name="password" value="" /> </td>
+            </tr>
+            <tr>
+              <button type="submit">Login</button>
+            </tr>
+          </table>
+        </form>
+      </div>
+    
+      <h1>{{title}}</h1>
+   
+    
+    
+    
+    </body>
+    
+    </html>
+    
